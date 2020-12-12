@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#f5f5f5"
+    tools:context=".TichDiem">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/text1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Coupon của bạn"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/text"
+            />
+        <ImageView
+            android:id="@+id/quaylai"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_clear"
+            android:layout_marginLeft="20dp"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_below="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#C6D5FF"/>
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/conpio"
+        android:layout_marginLeft="-5dp"
+
+        />
+</RelativeLayout>

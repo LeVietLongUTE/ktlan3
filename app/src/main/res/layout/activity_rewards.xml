@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rewards">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/text1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rewards của bạn"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/text"
+            />
+        <ImageView
+            android:id="@+id/quaylai"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_clear"
+            android:layout_marginLeft="20dp"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_below="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#C6D5FF"/>
+    <com.google.android.material.tabs.TabLayout
+        android:layout_below="@+id/text1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tablayout"></com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@+id/tablayout"
+        android:layout_marginTop="10dp"
+        android:id="@+id/viewpagerMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"></androidx.viewpager.widget.ViewPager>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quantri_124"
+        android:title="Quản Trị" />
+    <item
+        android:id="@+id/thanhhoa_124"
+        android:title="Thanh Hóa" />
+    <item
+        android:id="@+id/dongnai_124"
+        android:title="Đồng Nai" />
+    <item
+        android:id="@+id/binhduong_124"
+        android:title="Bình Dương" />
+    <item
+        android:id="@+id/hochiminh_124"
+        android:title="Hồ Chí Minh" />
+    <item
+        android:id="@+id/binhthuan_124"
+        android:title="Bình thuận" />
+    <item
+        android:id="@+id/daklak_124"
+        android:title="Đăk Lăk" />
+    <item
+        android:id="@+id/dannang_124"
+        android:title="Đà Nẵng" />
+    <item
+        android:id="@+id/hue_124"
+        android:title="Huế" />
+</menu>

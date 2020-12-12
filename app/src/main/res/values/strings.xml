@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lê Việt L0ng</string>
+    <string name="title_activity_dat_hangs">DatHangs</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_DoAn">Đồ Ăn yêu thích</string>
+    <string name="hello_blank_thucuong">Thức uống yêu thích</string>
+    <string name="hello_blank_pb">Món được yêu thích</string>
+</resources>
